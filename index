@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Dorian Prélaz, apprenti médiamaticien spécialisé dans le web, le design et la communication digitale.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Dorian Prélaz — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+      <span class="brand-mark">D<span>P</span></span>
+      <span class="brand-name">DORIAN<span>.</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav">
+      <a href="#accueil" class="nav-link active">Accueil</a>
+      <a href="#apropos" class="nav-link">À propos</a>
+      <a href="#projets" class="nav-link">Projets</a>
+      <a href="#competences" class="nav-link">Compétences</a>
+      <a href="#contact" class="nav-cta">Me contacter <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="accueil">
+      <div class="hero-grid"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="status-dot"></span> PORTFOLIO · MÉDIAMATIQUE</p>
+        <h1>Je transforme<br>les idées en <span class="gradient-text">expériences</span><br>digitales<span class="accent-dot">.</span></h1>
+        <p class="hero-intro">Hello, moi c'est Dorian. Apprenti médiamaticien passionné par le web, le design et la communication digitale.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projets">Découvrir mes projets <span>↘</span></a>
+          <a class="text-link" href="#apropos">En savoir plus <span>→</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><i></i> Suisse · Vaud</span>
+          <span>Disponible pour de nouvelles idées</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="visual-card">
+          <div class="visual-top"><span>CREATIVE.DEV</span><span class="live-dot">● LIVE</span></div>
+          <div class="visual-code">
+            <p><span class="code-muted">01</span> <span class="code-purple">const</span> <span class="code-blue">dorian</span> = {</p>
+            <p class="indent"><span class="code-green">passion</span>: <span class="code-yellow">"digital"</span>,</p>
+            <p class="indent"><span class="code-green">skills</span>: [</p>
+            <p class="indent2"><span class="code-yellow">"web"</span>, <span class="code-yellow">"design"</span>,</p>
+            <p class="indent2"><span class="code-yellow">"marketing"</span></p>
+            <p class="indent">],</p>
+            <p class="indent"><span class="code-green">mindset</span>: <span class="code-yellow">"create()"</span></p>
+            <p>};</p>
+          </div>
+          <div class="visual-bottom"><span>BUILDING THE NEXT IDEA</span><span>✳</span></div>
+        </div>
+        <div class="floating-tag tag-web"><span>⌘</span> WEB DESIGN</div>
+        <div class="floating-tag tag-creative"><span>✳</span> CREATIVE MIND</div>
+        <div class="visual-cross cross-one">+</div><div class="visual-cross cross-two">+</div>
+      </div>
+      <a class="scroll-indicator" href="#apropos"><span></span> SCROLL POUR EXPLORER</a>
+    </section>
+
+    <section class="about section" id="apropos">
+      <div class="section-label reveal"><span>01 / À PROPOS</span><span class="label-line"></span></div>
+      <div class="about-layout">
+        <div class="about-heading reveal">
+          <p class="eyebrow">QUI SE CACHE DERRIÈRE L'ÉCRAN ?</p>
+          <h2>Curieux par nature.<br><span class="muted-text">Créatif par passion.</span></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="large-copy">Je suis <strong>Dorian Prélaz</strong>, apprenti médiamaticien en 4ème année. J'aime imaginer, concevoir et donner vie à des projets qui allient esthétique et utilité.</p>
+          <p>Du développement web à la création visuelle, en passant par le marketing et la gestion de projet, j'aime découvrir de nouvelles façons de communiquer et de résoudre des problèmes.</p>
+          <a class="inline-link" href="#contact">Et si on créait quelque chose ensemble ? <span>↗</span></a>
+        </div>
+      </div>
+      <div class="about-stats reveal">
+        <div><strong>04<span>+</span></strong><small>Années de formation</small></div>
+        <div><strong>∞</strong><small>Idées à explorer</small></div>
+        <div><strong>360°</strong><small>Vision créative</small></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projets">
+      <div class="section-label reveal"><span>02 / SÉLECTION DE PROJETS</span><span class="label-line"></span></div>
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">DU CONCEPT AU RÉSULTAT</p><h2>Ce que j'ai <span class="gradient-text">construit.</span></h2></div>
+        <p>Une sélection de projets réalisés durant ma formation et mes expériences personnelles.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-feature reveal">
+          <div class="project-art art-study">
+            <div class="art-window"><div class="window-bar"><i></i><i></i><i></i><span>etudeconnect.ch</span></div><div class="study-logo">ÉC<span>.</span></div><div class="study-lines"><b></b><b></b><b></b></div><div class="study-pill">ENTRAIDE SCOLAIRE</div></div>
+            <span class="art-index">01</span>
+          </div>
+          <div class="project-info"><div><span class="project-type">WEB · UX/UI · MARKETING</span><h3>ÉtudeConnect</h3><p>Une plateforme qui met en relation les étudiants pour faciliter l'entraide scolaire.</p></div><span class="project-arrow">↗</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art art-cosy">
+            <div class="cosy-shape shape-a"></div><div class="cosy-shape shape-b"></div><div class="cosy-word">COSY<span>.</span></div><div class="cosy-caption">CONSEIL DES SENIORS<br>YVERDON-LES-BAINS</div><span class="art-index">02</span>
+          </div>
+          <div class="project-info"><div><span class="project-type">IDENTITÉ VISUELLE · PRINT</span><h3>COSY</h3><p>Création de supports de communication pour le Conseil des Seniors d'Yverdon.</p></div><span class="project-arrow">↗</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art art-anty">
+            <div class="anty-symbol">A<span>—</span></div><div class="anty-title">ANTY<br><b>GANG</b></div><span class="anty-url">ANTY-GANG.CH</span><span class="art-index">03</span>
+          </div>
+          <div class="project-info"><div><span class="project-type">WORDPRESS · WEB</span><h3>Anty-Gang</h3><p>Conception et réalisation d'un site web avec WordPress.</p></div><span class="project-arrow">↗</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art art-retro">
+            <span class="retro-small">THE GOOD OLD DAYS</span><div class="retro-title">RETRO<br><em>MANIA</em></div><div class="retro-disc"></div><span class="art-index">04</span>
+          </div>
+          <div class="project-info"><div><span class="project-type">GRAPHISME · PRINT</span><h3>RetroMania</h3><p>Déclinaison d'un univers graphique sur affiche et bannière grand format.</p></div><span class="project-arrow">↗</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art art-sport">
+            <div class="sport-ring"></div><div class="sport-word">IDÉE<br><b>SPORT</b></div><div class="sport-sub">MOVE · PLAY · SHARE</div><span class="art-index">05</span>
+          </div>
+          <div class="project-info"><div><span class="project-type">ANIMATION · COMMUNICATION</span><h3>IdéeSport</h3><p>Encadrement et animation d'activités sportives pour les jeunes.</p></div><span class="project-arrow">↗</span></div>
+        </article>
+        <article class="project-card project-note reveal">
+          <div class="note-symbol">✳</div><p>Chaque projet est une occasion d'apprendre, de tester et d'aller un peu plus loin.</p><a href="#contact">Parlons de ton projet <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section" id="competences">
+      <div class="section-label reveal"><span>03 / SAVOIR-FAIRE</span><span class="label-line"></span></div>
+      <div class="skills-layout">
+        <div class="skills-intro reveal"><p class="eyebrow">MES OUTILS & DOMAINES</p><h2>Des idées,<br>des outils,<br><span class="gradient-text">des solutions.</span></h2><p>J'aime passer d'une idée à une réalisation concrète, en gardant toujours l'utilisateur et l'objectif en tête.</p></div>
+        <div class="skill-list reveal">
+          <div class="skill-row"><span class="skill-number">01</span><div><h3>Développement web</h3><p>HTML · CSS · JavaScript · PHP · WordPress</p></div><span class="skill-plus">↗</span></div>
+          <div class="skill-row"><span class="skill-number">02</span><div><h3>Design & création visuelle</h3><p>Identité visuelle · Mise en page · Supports print</p></div><span class="skill-plus">↗</span></div>
+          <div class="skill-row"><span class="skill-number">03</span><div><h3>Marketing & communication</h3><p>Réseaux sociaux · Stratégie · Création de contenu</p></div><span class="skill-plus">↗</span></div>
+          <div class="skill-row"><span class="skill-number">04</span><div><h3>Gestion de projet</h3><p>Organisation · Collaboration · Présentation</p></div><span class="skill-plus">↗</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-glow"></div>
+      <div class="section-label reveal"><span>04 / CONTACT</span><span class="label-line"></span></div>
+      <div class="contact-content reveal">
+        <p class="eyebrow">UNE IDÉE EN TÊTE ?</p>
+        <h2>On en<br><span class="gradient-text">discute.</span></h2>
+        <p class="contact-text">Un projet, une collaboration ou simplement envie d'échanger ? Écris-moi !</p>
+        <a class="button button-primary contact-button" href="mailto:dorian.prelaz@eduvaud.ch">dorian.prelaz@eduvaud.ch <span>↗</span></a>
+      </div>
+      <div class="contact-side reveal"><span class="side-star">✳</span><span>LET'S MAKE<br>IT HAPPEN.</span></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#accueil"><span class="brand-mark">D<span>P</span></span><span class="brand-name">DORIAN<span>.</span></span></a>
+    <p>Conçu avec curiosité et beaucoup de café.</p>
+    <span>© <span id="year"></span> Dorian Prélaz</span>
+    <a href="#accueil" class="back-top">RETOUR EN HAUT ↑</a>
+  </footer>
+</body>
+</html>
